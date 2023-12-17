@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background:linear-gradient(300deg,#b3207a, rgb(214, 69, 59));
+  }
+  
+  /* Estilos del formulario */
+  .formulario {
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    margin:  30px;
+    width: 600px;
+    padding: 20px;
+    background-color: #751a71;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  /* Estilos de los campos de entrada */
+  input, textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de las etiquetas */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Estilos del botón de envío */
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

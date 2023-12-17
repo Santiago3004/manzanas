@@ -1,0 +1,32 @@
+#encabezado{
+    background-color: #4f1d77;
+    margin: -0.5%;
+    height: 120px;
+    position: relative;
+}
+
+#logo{
+    transition: 1s;
+}
+
+#logo:hover{
+    transform: scale(1.1);
+}
+
+#inicio{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: -70px;
+}
+
+#inicio:hover{
+    text-shadow: 5px 5px 5px;
+    font-weight: 800;
+}
+
+body{
+    background-color: rgba(238, 130, 238, 0.192);
+}
